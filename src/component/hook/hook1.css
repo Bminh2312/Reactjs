@@ -1,7 +1,7 @@
-hook1{
+.hook1{
     background-color: aqua;
 }
 
-hook1.active{
+.hook1.active{
     background-color: red;
 }
