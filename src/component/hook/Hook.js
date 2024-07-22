@@ -18,7 +18,8 @@ export default function Hook() {
     }
     return (
         <div>
-            <h1>Result: {rs}</h1>
+            <h1>Hello</h1>
+            <h2>Result: {rs}</h2>
             <input value={num1} type='number' onChange={(e) => setNum1(e.target.value)} placeholder='Enter number a'/>
             <input value={num2} type='number' onChange={(e) => setnum2(e.target.value)} placeholder='Enter number b'/>
             <button   onClick={hanlde_Add} >Add</button>
