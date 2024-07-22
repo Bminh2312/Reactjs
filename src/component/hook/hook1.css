@@ -1,0 +1,7 @@
+hook1{
+    background-color: aqua;
+}
+
+hook1.active{
+    background-color: red;
+}
